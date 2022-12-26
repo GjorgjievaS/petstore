@@ -18,7 +18,7 @@ If you want to add one or more users manually <br>
 
 **POST  localhost:8080/api/users**
 
-and in the body select raw and add data in the following format <br>
+and in the **body** select **raw** and add data in the following format <br>
 ```json
 {
     "firstName":"Annie",
@@ -34,7 +34,7 @@ If you want to add 1-10 users with api <br>
 
 ex. **POST localhost:8080/api/users/create-all/3**   <br>
 
-and in the body select none
+and in the **body** select **none**
 
 
 If you want to see the users added to the list  <br>
@@ -47,7 +47,7 @@ If you want to add one or more pets manually <br>
 
 **POST  localhost:8080/api/pets** <br>
 
-and in the body select raw and add data in the following format <br>
+and in the **body** select **raw** and add data in the following format <br>
 ```json
 {
         "name": "Biscuit",
@@ -66,7 +66,7 @@ If you want to add 1-20 pets with api <br>
 
 ex. **POST localhost:8080/api/pets/create-all/8**  <br>
 
-and in the body select none
+and in the **body** select **none**
 
 If you want to see the pets added to the list  <br>
 
